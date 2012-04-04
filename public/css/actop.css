@@ -1,0 +1,245 @@
+/*##### Global Declarations #####*/
+
+	/*# Form elements #*/
+		form#quickMenu {
+			
+		}
+		form#quickMenu input.text {
+			border: 1px solid #999999;
+			font-family: Verdana, Arial; 
+			font-size: 10px;
+			width: 100px;
+		}
+		form#quickMenu select {
+			border: 1px solid #999999;
+			font-family: Verdana, Arial; 
+			font-size: 10px;
+			width: 122px;
+		}
+
+/*##### Colors/BG Colors #####*/
+
+/*##### Text Styles #####*/
+
+	
+/*##### Link Styles #####*/
+
+	a.greyLink {
+		color: #666666;
+		text-decoration: underline;
+	}
+	a.greyLink:link {
+		color: #666666;
+		text-decoration: underline;
+	}
+	a.greyLink:active {
+		color: #666666;
+		text-decoration: underline;
+	}
+	a.greyLink:visited {
+		color: #666666;
+		text-decoration: underline;
+	}
+	a.greyLink:hover {
+		color: #666666;
+		text-decoration: underline;
+	}
+	
+
+/*##### Layout Styles #####*/
+	
+	div#topBanner { 
+		width: 968px;
+		background-color: #9999FF;
+		display: block;
+		background-image: url(../img/bg-topnav-banner2.gif);
+		background-repeat: no-repeat;
+		background-color: #223E6E;
+		background-color: #ffffff;
+	}
+	
+	div#topBanner div#logoAndLinks {
+		height: 85px;
+		margin: 0;
+		border 0;
+		padding: 0;
+	}
+	
+	div#topBanner div#logoAndLinks #logo {
+		display: inline;
+		float: left;
+	}
+	
+	div#topBanner div#logoAndLinks div#topNavMod {
+		width: 719px;
+		display: inline;
+		
+		font-size: 9px;
+		font-family: Verdana, Arial;
+		font-weight: bold;
+		color: #ffffff;
+		padding: 0;
+		border: 0;
+		margin: 5px 10px 0px 0;
+		text-align: right;
+		float: left;
+	}
+	div#topBanner div#logoAndLinks div#topNavMod table#utility {
+	}
+	div#topBanner div#logoAndLinks div#topNavMod table#utility td {
+		font-size: 9px;
+		font-family: Verdana, Arial;
+		color: #9eaabf;
+		vertical-align: middle;
+		line-height: 11px;
+	}
+	div#topBanner div#logoAndLinks div#topNavMod table#utility td.ltBlueDivider {
+		padding: 0 9px 0 9px;
+		width: 1px;
+	}
+	div#topBanner div#logoAndLinks div#topNavMod a { color: #ffffff; }
+	div#topBanner div#logoAndLinks div#topNavMod a:link { text-decoration: none; }
+	div#topBanner div#logoAndLinks div#topNavMod a:visited { text-decoration: none; }
+	div#topBanner div#logoAndLinks div#topNavMod a:active { text-decoration: none; }
+	div#topBanner div#logoAndLinks div#topNavMod a:hover { text-decoration: underline; }
+	div#topBanner div#logoAndLinks div#topNavMod table.searchField {
+		margin-top: 12px;
+	}
+	div#topBanner div#logoAndLinks div#topNavMod table.searchField td {
+		font-size: 9px;
+		font-family: Verdana, Arial;
+		color: #ffffff;
+		font-weight: bold;
+	}
+	div#topBanner div#topNav {
+		width: 100%;
+		background-image: url(../img/bg-topnav.gif);
+		background-repeat: repeat-x;
+		display: block;
+		text-align: left;
+		clear: both;
+		font-size: 1px;
+	}
+	div#topBanner div#topNav table {
+		border: 0;
+		padding: 0;
+		margin: 0;
+		font-size: 1px;
+	}
+	div#topBanner div#topNav td {
+		border: 0;
+		padding: 0;
+		margin: 0;
+		font-size: 1px;
+	}
+	div#topBanner div#topNav td.divider {
+		width: 1px;
+		background-image: url(../img/bg-topnav-divider.gif);
+		background-repeat: no-repeat;
+		background-color: #eeeeee;
+		padding: 0;
+	}
+	div#topBanner div#topNav td.dividerOn {
+		width: 1px;
+		background-image: url(../img/topnav-sideborder.gif);
+		background-repeat: no-repeat;
+		background-color: #eeeeee;
+		padding: 0;
+	}
+	div#topBanner * img {
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+	/* hide from MacIE \*/ 
+	/* * html div#topBanner div#topNav { 
+		margin-bottom: -2px; 
+	} */
+	/* end hide */
+	div#topBanner div#topNav td.topNavButton {	
+	}
+	div#topBanner div#topNav td.topNavButtonHover {	
+	}
+	div#topBanner div#topBannerGrad {
+		height: 5px;
+		background-image: url(../img/bg-topnav-ggrad.gif);
+		background-repeat: repeat-x;
+		background-color: #ffffff;
+		font-size: 1px;
+		display: block;
+		clear: both;
+		position: relative;
+	}
+	
+	div#topBanner div#subNav {
+		width: 100%;
+		background-image: url(../img/bg-subnav.jpg);
+		background-repeat: repeat-x;
+		background-color: #E5E5E6;
+		border-left: 0;
+		border-right: 0;
+		border-top: 0;
+		border-bottom: 1px solid #999999;
+		display: block;
+		text-align: left;
+		clear: both;
+		font-size: 1px;
+	}
+	div#topBanner div#subNav table {
+		border-left: 1px solid #999999;
+		border-right: 0;
+		border-top: 0;
+		border-bottom: 0;
+		padding: 0;
+		margin: 0;
+		font-size: 1px;
+	}
+	div#topBanner div#subNav td {
+		border: 0;
+		padding: 0;
+		margin: 0;
+		font-size: 1px;
+	}
+	/* hide from MacIE \*/ 
+	/* * html div#topBanner div#subNav { 
+		margin-bottom: -2px; 
+	} */
+	/* end hide */
+	div#topBanner div#subNav td.subNavButton {	
+	}
+	div#topBanner div#subNav td.subNavButtonHover {	
+	}
+	div#topBanner div#subNav div#rightEdge {
+	}
+	
+/*##### Top Navigation Dropdown Menu styles #####*/
+	#dropmenudiv {
+		margin-top: -1px;
+	}
+	#dropmenudiv {
+		position:absolute; 
+		font:normal 11px Verdana; 
+		visibility:hidden; 
+		z-index: 1000; 
+		background-color: #ffffff; 
+		border: 1px solid #999999;
+		padding-top: 1px;
+	}
+	#dropmenudiv a { 
+		font:bold 10px Verdana,Arial; 
+		color: #223E6E; 
+		margin: 0 1px 1px 1px;
+		padding: 0;
+		background-color: #E0E0E0;
+		display: block;
+	}
+	#dropmenudiv a:hover {
+		color: #ffffff;
+		background-color: #5386AE;
+	}
+	
+	#globalOfficesDD {
+	}
+	#globalOfficesDD a {
+		padding: 3px 5px 3px 5px;
+	}
