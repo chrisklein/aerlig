@@ -35,15 +35,6 @@ group :test do
   gem 'factory_girl_rails', '1.0'
 end
 
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the web server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+group :production do
+  gem 'pg', '0.12.2'
+end
