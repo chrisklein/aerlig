@@ -9,6 +9,5 @@
 //= require skeleton
 //= require underscore-min
 //= require backbone
-//= require mustache
 //= require json2
 //= require_tree .
