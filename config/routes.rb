@@ -4,6 +4,7 @@ Simplebrew::Application.routes.draw do
   resources :sessions, :only => [:new, :create, :destroy]
 
   # root :to=> "pages#home"
+  root :controller => 'static', :action => '/' 
   
   match '/contact',             :to => 'pages#contact'
   match '/signup',              :to => 'users#new'
