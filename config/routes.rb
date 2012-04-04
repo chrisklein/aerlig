@@ -3,7 +3,7 @@ Simplebrew::Application.routes.draw do
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
 
-  root :to=> "/index"
+  # root :to=> "pages#home"
   
   match '/contact',             :to => 'pages#contact'
   match '/signup',              :to => 'users#new'
